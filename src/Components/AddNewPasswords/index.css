@@ -1,0 +1,117 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  padding: 40px;
+}
+.app-logo {
+  height: 70px;
+  margin-bottom: 20px;
+}
+.password-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 23px;
+}
+.bg-card {
+  background-color: #5763a5;
+  padding: 40px;
+  border-radius: 10px;
+  width: 80%;
+}
+@media screen and (max-width: 575px) {
+  .bg-card {
+    width: 100%;
+  }
+}
+.image-container {
+  display: flex;
+}
+@media screen and (max-width: 575px) {
+  .image-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.form-card {
+  background-color: #454f84;
+  padding: 20px;
+  width: 40%;
+  border-radius: 10px;
+}
+@media screen and (max-width: 575px) {
+  .form-card {
+    width: 100%;
+  }
+}
+.img-input-container {
+  display: flex;
+  margin-bottom: 30px;
+}
+.input-icons {
+  height: 30px;
+  background-color: #ffffff;
+  padding: 8px;
+  height: 40px;
+  border-right: 1px solid #b6c3ca;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.input-ele {
+  border-width: 0px;
+  background-color: #ffffff;
+  height: 40px;
+  width: 150%;
+  padding: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+}
+@media screen and (max-width: 575px) {
+  .input-ele {
+    width: 100%;
+  }
+}
+.search-input-ele {
+  outline: none;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.add-button {
+  height: 30px;
+  width: 80px;
+  border-width: 0px;
+  background-color: #0b69ff;
+  border-radius: 06px;
+  margin-right: 18px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.password-manager-img {
+  height: 60vh;
+  margin-left: 50px;
+}
+.no-passwords-img {
+  height: 60vh;
+}
+.no-passwords {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.no-passwords-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.u-list-container {
+  display: flex;
+}
+.passwords-count {
+  color: #ffffff;
+}
